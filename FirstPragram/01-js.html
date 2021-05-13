@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+    </style>
+    <script>
+        window.onload=function(){
+            var btn01=document.getElementById("btn01");
+            btn01.onclick=function(){
+                var box=document.getElementById("box");
+            //     var a=getComputedStyle("box",null);
+            //     alert(a);
+            //alert(box.style.width);
+            // if(getComputedStyle){
+            //     return alert(getComputedStyle(box,null));
+            // }else{
+            //     return alert(box.currentStyle.width);
+            // }
+            // alert(getComputedStyle(box,null).width);
+               // getComputedStyle(box,null).width=100px;
+             };
+           
+            // alert(box.currentStyle.width);
+        }
+        
+    </script>
+</head>
+<body>
+    <div id="box"></div>
+    <button id="btn01">dianwo</button>
+</body>
+</html>
